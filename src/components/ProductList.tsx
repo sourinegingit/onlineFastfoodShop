@@ -18,7 +18,7 @@ const products:Product[]=[
     addToCart: (product: Product) => void ;
   }
 
-const ProductList = () => {
+const ProductList = ({addToCart}:ProductListProps) => {
   return (
     <div>
         return (

@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer'
 import Headre from './components/Headre'
 
 function App() {
@@ -8,6 +9,10 @@ function App() {
       <div className='w-full'>
         <Headre/>
       </div>
+
+
+
+      <Footer/>
     </div>
   )
 }

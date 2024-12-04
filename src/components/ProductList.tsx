@@ -1,3 +1,5 @@
+import { Product } from "../cartItem";
+
 const products:Product[]=[
     { id: 1, name: 'پیتزا پپرونی', description: 'پیتزا با سوس پپرونی و پنیر', price: 120000, imageUrl: '../src/assets/burger1.jpg' },
     { id: 2, name: 'برگر مرغ', description: 'برگر مرغ تازه با نان خانگی', price: 90000, imageUrl: '../src/assets/burger3.jpg' },
